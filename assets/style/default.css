@@ -44,14 +44,25 @@ p {
 }
 
 .container {
-  max-width: 1240px; //1180+30+30=1240
+  max-width: 1240px; /*1180+30+30=1240*/
   margin: 0 auto; /*zadaem po centry*/
   padding: 0 30px;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 1240px) {
   .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 840px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 740px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
   }
 }
