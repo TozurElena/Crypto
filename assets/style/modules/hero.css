@@ -1,0 +1,38 @@
+.hero {
+  background-color: black;
+  background-image: url("../../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__container {
+  padding-top: 127px;
+  padding-bottom: 127px;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 121px;
+  color: #55c2ff;
+  margin-bottom: 18px;
+}
+.hero__subtitle {
+  max-width: 480px;
+  font-family: "IBM Plex Sans";
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+.hero__btn {
+  background-color: #55c2ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 11px 41px;
+  border: none;
+}
