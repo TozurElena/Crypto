@@ -1,0 +1,85 @@
+.modal {
+  max-width: 688px;
+  width: 100%;
+  margin: 40px 0;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: default;
+  text-align: left;
+  white-space: normal;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.36s ease-in-out, visibility 0.36s ease-in-out;
+}
+
+.modal_open {
+  visibility: visible;
+  opacity: 1;
+}
+.modal__container {
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 20px 20px 45px;
+}
+.modal__title {
+  max-width: 400px;
+  margin: 0 auto 20px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #55c2ff;
+}
+.modal__person {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  gap: 16px;
+  margin-bottom: 27px;
+}
+
+.modal__label {
+  display: block;
+  flex-grow: 1; /*растигивает элементы насколько смогут*/
+  font-family: "IBM Plex Sans";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #858585;
+}
+.modal__input {
+  display: block;
+  border: 1px solid #68b7ff;
+  border-radius: 8px;
+  height: 36px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.modal__order {
+  display: block;
+  margin: 0 auto;
+  max-width: 232px;
+  width: 100%;
+  padding: 11px;
+  background: #55c2ff;
+  border: none;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.modal__close {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  background-color: transparent;
+  border: none;
+  line-height: 0;
+  color: #55c2ff;
+}
