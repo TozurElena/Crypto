@@ -34,7 +34,15 @@
   line-height: 17px;
   color: #ffffff;
   padding: 11px 41px;
-  border: none;
+  border: 1px solid transparent;
+}
+.hero__btn:hover,
+.hero__btn:focus {
+  border-color: #1c88eb;
+}
+
+.hero__btn:active {
+  background-color: #1c88eb;
 }
 @media (max-width: 1024px) {
   .hero__container {
