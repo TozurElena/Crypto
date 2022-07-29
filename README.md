@@ -1,5 +1,12 @@
 # Crypto
  Лендинг сервиса обмена монет/ Coin Exchange Service Landing
+ 
+## Description:
+- Lending (adaptive, burger menu)
+- Tabs
+- Pseudo-Elements
+- Web Socket
+
 ## Technology used
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
