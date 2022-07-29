@@ -21,6 +21,7 @@
 .about-us__exchange-rates {
   max-width: 380px;
 }
+
 .advantage__list-btn {
   display: flex;
   justify-content: space-between;
@@ -62,6 +63,7 @@
 }
 .advantage__item-content_active {
   display: flex;
+  align-items: center;
 }
 .advantage__item-content:before {
   content: "";
