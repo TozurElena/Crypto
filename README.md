@@ -6,6 +6,7 @@
 - Tabs
 - Pseudo-Elements
 - Web Socket
+- Accordion 
 
 ## Technology used
 
