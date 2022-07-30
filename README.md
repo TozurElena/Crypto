@@ -16,7 +16,7 @@
 - Git and GitHub
 
 ### Useful links:
-- [Vercel](https://vercel.com/)
+- [URL-encoder for SVG](https://yoksel.github.io/url-encoder/)
 
 
 ## Hosting
