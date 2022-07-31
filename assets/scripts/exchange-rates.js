@@ -1,7 +1,7 @@
 const exchangeRatesList = document.querySelector('.exchange-rates__list');
 
 // создаем постоянное соединение - socket
-const socket = new WebSocket('ws://web-socket-current.herokuapp.com');
+const socket = new WebSocket('wss://web-socket-current.herokuapp.com');
 
 const renderExchange = (wrapper, data) => {
   const {from, to, rate, change} = JSON.parse(data);
