@@ -57,12 +57,16 @@ export const accordion = () => {
       const item = button.closest('.faq__item');
 
       faqItems.forEach((faqItem, i) => {
-        
+        const answer = item.querySelector('.faq__answer');
+        if (item === faqItem) {
+          faqItem.classList.contains('faq__item_show') ? hide(faqItem, answer) : show(faqItem, answer);
+        } else {
+          hide(faqItem, answer)
+        }
       })
 
       // item.classList.toggle('faq__item_show');
-      const answer = item.querySelector('.faq__answer');
-      item.classList.contains('faq__item_show') ? hide(item, answer) : show(item, answer);
+      
     }
 
   })
