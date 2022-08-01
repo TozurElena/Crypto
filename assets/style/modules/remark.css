@@ -1,9 +1,10 @@
 .remark {
-  padding: 20px 0;
   background: #08475e;
   z-index: 998;
+  overflow: hidden;
 }
 .remark__text {
+  padding: 20px 0;
   font-family: "IBM Plex Sans";
   font-weight: 300;
   font-size: 12px;

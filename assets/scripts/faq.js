@@ -47,6 +47,7 @@ const show = (elem, answer) => {
 
 export const accordion = () => {
   const list = document.querySelector('.faq__list');
+  const faqItems = document.querySelectorAll('.faq__item');
 
   list.addEventListener('click', e => {
     // отлавливаем клик на кнопке с вопросом
@@ -54,6 +55,10 @@ export const accordion = () => {
 
     if (button) {
       const item = button.closest('.faq__item');
+
+      faqItems.forEach((faqItem, i) => {
+        
+      })
 
       // item.classList.toggle('faq__item_show');
       const answer = item.querySelector('.faq__answer');
